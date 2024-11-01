@@ -1,0 +1,33 @@
+===========================================================
+
+To change the color of the border...
+	1. open "images/rounded_corners.psd"
+	2. fill layer with new color (optional)
+	3. resize image (optional)
+	4. goto File->Save for Web & Devices...
+	5. hit save
+	6. make sure "All User Slices" is selected
+	7. save to wp-rounded-img directory
+
+===========================================================
+
+To turn rounded corners off by default:
+	1. in WordPress, goto Settings->WP Rounded Img
+	2. uncheck 'round by default'
+	3. hit update
+
+===========================================================
+
+To escape rounding on any image, regardless of other settings:
+	1. add the class "wp-rounded-off" to the <img> element
+	
+	(note: the escape class is defined on the settings page)
+
+===========================================================
+	
+To round any image, regardless of other settings:
+	1. add the class "wp-rounded-on" to the <img> element
+	
+	(note: the rounded class is defined on the settings page)
+
+===========================================================
